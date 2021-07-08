@@ -7,9 +7,15 @@ class SearchBar extends React.Component {
     //     console.log(event.target.value);
     // }
 //  prevent default refresh whole browser when submit the form
-    onFormSubmit (event) {
+    // onFormSubmit (event) {
+    //     event.preventDefault();
+    // }
+    //  we can bind on submit using arrow function
+    onFormSubmit = event => {
         event.preventDefault();
-    }
+
+        console.log(this.state.term);
+    };
 
 
     render () {
