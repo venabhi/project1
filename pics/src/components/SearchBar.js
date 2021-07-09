@@ -13,8 +13,7 @@ class SearchBar extends React.Component {
     //  we can bind on submit using arrow function
     onFormSubmit = event => {
         event.preventDefault();
-
-        console.log(this.state.term);
+        this.props.onSubmit(this.state.term);
     };
 
 
