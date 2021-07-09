@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # API REQUEST
 Axios is the package to make the network requests predictable and 
 install the axios import on the file 
+
+# REFS
+will get the acces to a single dom element
